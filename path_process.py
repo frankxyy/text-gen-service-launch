@@ -17,4 +17,4 @@ if __name__ == '__main__':
     # 输出上一级路径名
     print("上一级路径名：", parent_path)
 
-    return parent_path
+    sys.exit(parent_path)
