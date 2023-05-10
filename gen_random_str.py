@@ -15,4 +15,4 @@ if __name__ == '__main__':
     # 打印随机字符串
     print(random_string)
 
-    # sys.exit(random_string)
+    sys.exit(0)
