@@ -1,5 +1,6 @@
 import random
 import string
+import sys
 
 # 生成8位随机字符串
 def generate_random_string(length):
@@ -14,4 +15,4 @@ if __name__ == '__main__':
     # 打印随机字符串
     print("随机字符串:", random_string)
 
-    return random_string
+    sys.exit(random_string)
