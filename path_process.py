@@ -15,6 +15,6 @@ if __name__ == '__main__':
     parent_path = os.path.dirname(path)
 
     # 输出上一级路径名
-    print("上一级路径名：", parent_path)
+    # print("上一级路径名：", parent_path)
 
     sys.exit(parent_path)
