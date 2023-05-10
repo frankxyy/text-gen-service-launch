@@ -16,7 +16,7 @@ if __name__ == '__main__':
     if path[-1] == '/':
         path = path[:-1]
     segs = path.split('/')
-    res = '/'.join('', 'data', segs[-1])
+    res = '/'.join(['', 'data', segs[-1]])
     # if path[0] == '/':
     #     parent_path = '/' + parent_path
 
