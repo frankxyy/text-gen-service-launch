@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 RUST_BACKTRACE=1 text-generation-launcher --model-id $1 --num-shard 1 --max-total-tokens 5096 --port $2
