@@ -13,6 +13,6 @@ if __name__ == '__main__':
     random_string = generate_random_string(8)
 
     # 打印随机字符串
-    # print("随机字符串:", random_string)
+    print(random_string)
 
-    sys.exit(random_string)
+    # sys.exit(random_string)

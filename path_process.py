@@ -12,9 +12,13 @@ if __name__ == '__main__':
     path = sys.argv[1]
 
     # 获取上一级路径名
-    parent_path = os.path.dirname(path)
+    # parent_path = os.path.dirname(path)
+    segs = path.split('/')
+    parent_path = '/'.join(segs[:-1])
+    if path[0] == '/':
+        parent_path = '/' + parent_path
 
     # 输出上一级路径名
-    # print("上一级路径名：", parent_path)
+    print(parent_path)
 
-    sys.exit(parent_path)
+    sys.exit(0)
